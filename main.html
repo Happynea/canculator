@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Калькулятор</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="scripr.js"></script>
+    <style>
+       
+    </style>
+</head>
+<body>
+ <div>
+    <input id="display" type="text" readonly><br>
+
+    <button onclick="append('(')" style="background-color: rgb(41, 40, 40);">(</button>
+    <button onclick="append(')')" style="background-color: rgb(41, 40, 40);">)</button>
+    <button onclick="clearDisplay()" style="background-color: orange;">AC</button>
+    <button onclick="deleteLast()" style="background-color: orange;">DEL</button>
+    <button onclick="append('/')" style="background-color: orange;">/</button>
+    <button onclick="append('*')" style="background-color: orange;">*</button>
+    <button onclick="square()" style="background-color: rgb(41, 40, 40);">^2</button>
+    <button onclick="cube()" style="background-color: rgb(41, 40, 40);">^3</button>
+    <button onclick="append('7')" style="background-color: gray;">7</button>
+    <button onclick="append('8')" style="background-color: gray;">8</button>
+    <button onclick="append('9')" style="background-color: gray;">9</button>
+    <button onclick="append('-')" style="background-color: orange;">-</button>
+    <button onclick="sqrt()" style="background-color: rgb(41, 40, 40);">&#10003;</button>
+    <button onclick="cbrt()" style="background-color: rgb(41, 40, 40);">&#8731;</button>
+    <button onclick="append('6')" style="background-color: gray;">6</button>
+    <button onclick="append('5')" style="background-color: gray;">5</button>
+    <button onclick="append('4')" style="background-color: gray;">4</button>
+    <button onclick="append('+')" style="background-color: orange;">+</button>
+    <button onclick="factorial()" style="background-color: rgb(41, 40, 40);">!</button>
+    <button onclick="append('1')" style="background-color: gray;">1</button>
+    <button onclick="append('2')" style="background-color: gray;">2</button>
+    <button onclick="append('3')" style="background-color: gray;">3</button>
+    <button onclick="append('0')" style="background-color: gray;">0</button>
+    <button onclick="calculate()" style="background-color: orangered;">=</button>
+ </div>
+
+
+</body>
+</html>
